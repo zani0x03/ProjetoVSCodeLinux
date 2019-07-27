@@ -1,0 +1,248 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/ProjetoVSCodeLinux/ProjetoVSCodeLinux.csproj": {}
+  },
+  "projects": {
+    "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/ProjetoVSCodeLinux/ProjetoVSCodeLinux.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/ProjetoVSCodeLinux/ProjetoVSCodeLinux.csproj",
+        "projectName": "ProjetoVSCodeLinux",
+        "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/ProjetoVSCodeLinux/ProjetoVSCodeLinux.csproj",
+        "packagesPath": "/home/ztiago3/.nuget/packages/",
+        "outputPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/ProjetoVSCodeLinux/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ztiago3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxBLL/VSCodeLinuxBLL.csproj": {
+                "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxBLL/VSCodeLinuxBLL.csproj"
+              },
+              "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxDAL/VSCodeLinuxDAL.csproj": {
+                "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxDAL/VSCodeLinuxDAL.csproj"
+              },
+              "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj": {
+                "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxBLL/VSCodeLinuxBLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxBLL/VSCodeLinuxBLL.csproj",
+        "projectName": "VSCodeLinuxBLL",
+        "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxBLL/VSCodeLinuxBLL.csproj",
+        "packagesPath": "/home/ztiago3/.nuget/packages/",
+        "outputPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxBLL/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ztiago3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxDAL/VSCodeLinuxDAL.csproj": {
+                "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxDAL/VSCodeLinuxDAL.csproj"
+              },
+              "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj": {
+                "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxDAL/VSCodeLinuxDAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxDAL/VSCodeLinuxDAL.csproj",
+        "projectName": "VSCodeLinuxDAL",
+        "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxDAL/VSCodeLinuxDAL.csproj",
+        "packagesPath": "/home/ztiago3/.nuget/packages/",
+        "outputPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxDAL/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ztiago3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj": {
+                "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.60.9, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj",
+        "projectName": "VSCodeLinuxModel",
+        "projectPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/VSCodeLinuxModel.csproj",
+        "packagesPath": "/home/ztiago3/.nuget/packages/",
+        "outputPath": "/home/ztiago3/Dev/DotNet/ProjetoVSCodeLinux/VSCodeLinuxModel/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ztiago3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
